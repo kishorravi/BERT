@@ -31,11 +31,11 @@ The IMDb dataset is a well-known collection of movie reviews with binary sentime
   -Truncated and padded to a maximum sequence length of 512 tokens.
 ## Methodology
 
-**1.Preprocessing:**
+- **Preprocessing:**
 Reviews are tokenized and prepared for input by applying truncation and padding to ensure consistent input lengths.
-**2.Model:**
+- **Model:**
 The bert-base-uncased model is fine-tuned for binary classification, predicting either positive or negative sentiments.
-**3.Evaluation:**
+- **Evaluation:**
 Model predictions are compared against true labels, and metrics such as accuracy, precision, recall, F1-score, and Cohen's Kappa are calculated.
 ##Results
 
